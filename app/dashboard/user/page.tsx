@@ -218,5 +218,6 @@ const MainScreen: React.FC = () => {
     </SafeAreaView>
   );
 };
+// 작업 1
 
 export default MainScreen;
