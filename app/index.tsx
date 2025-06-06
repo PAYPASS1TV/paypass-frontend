@@ -17,7 +17,7 @@ export default function HomeScreen() {
     router.dismissAll();
     router.replace('/login');
   };
-
+//로그인
   return (
     <View className="flex-1 justify-center items-center">
       <TouchableOpacity 
