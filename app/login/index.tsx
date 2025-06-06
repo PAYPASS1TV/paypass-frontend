@@ -144,10 +144,7 @@ const SignupPage: React.FC = () => {
   };
 
   const handleSubmit = () => {
-    if (isFormValid()) {
-      console.log("회원가입 데이터:", formData);
-      Alert.alert("성공", "회원가입이 완료되었습니다!");
-    }
+
   };
 
   const renderCareCenterItem = ({ item }: { item: CareCenter }) => (
